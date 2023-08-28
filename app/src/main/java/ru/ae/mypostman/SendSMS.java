@@ -7,21 +7,20 @@ package ru.ae.mypostman;
 
  */
 
-import android.app.Activity;
 import android.telephony.SmsManager;
 import android.util.Log;
 
 public class SendSMS {
 
 //    View    view;
-    Activity    activity;
+    MainActivity    activity;
 
     SendSMS()
     {
 
     }
 
-    SendSMS(Activity activity)
+    SendSMS(MainActivity activity)
     {
         this.activity = activity;
     }
